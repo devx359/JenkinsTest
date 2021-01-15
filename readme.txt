@@ -1,5 +1,4 @@
 this is something ugly duck ccccooooob
 this is something bad
-oy yeah
-icecream is good and sweet lala
-
+oy yeah michale
+icecream is bad ,its final
