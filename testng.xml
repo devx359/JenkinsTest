@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="E:/neonworkspace/TestProj/src/test/java/scenarios/Rest.java">
+<suite name="Sanniiityyy Suite">
+    <test verbose="2" preserve-order="true" name="mytest1">
         <classes>
-            <class name="scenarios.Rest">
-                <methods><include name="get"/>
-                    <include name="get2"/><include name="post"/>
-                </methods>
-            </class></classes>
+            <class name="scenarios.TC1">
+            </class>
+        </classes>
     </test>
 </suite>

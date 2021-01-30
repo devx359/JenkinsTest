@@ -10,7 +10,8 @@ public class TC1 {
 	@Test(priority=1)
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_85.exe");
+		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_88.exe");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_88");
 		driver = new ChromeDriver();
 	}
 	
@@ -19,6 +20,7 @@ public class TC1 {
 	{
 		driver.get("https://www.google.com/");
 		Thread.sleep(2000);
+		System.out.println("Inside test do shit");
 	}
 	
 	@Test(priority=3)
