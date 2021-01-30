@@ -1,6 +1,7 @@
 package scenarios;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class TC1 {
@@ -12,7 +13,9 @@ public class TC1 {
 	{
 		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_88.exe");
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_88");
-		driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("headless");
+		driver = new ChromeDriver(options);
 	}
 	
 	@Test(priority=2)
