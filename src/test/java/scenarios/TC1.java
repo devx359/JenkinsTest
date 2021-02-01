@@ -13,6 +13,7 @@ public class TC1 {
 	{
 		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_88.exe");
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_88");
+		System.setProperty("webdriver.chrome.silentOutput", "true");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
 		options.addArguments("window-size=1400,1500");
