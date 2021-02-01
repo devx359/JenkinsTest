@@ -25,6 +25,7 @@ public class TC1 {
 		options.addArguments("--disable-dev-shm-usage");*/
 		//driver = new ChromeDriver(options);
 		driver = new ChromeDriver();
+		driver.get("http://127.0.0.1:8080/");
 	}
 	
 	@Test(priority=2)
