@@ -23,7 +23,8 @@ public class TC1 {
 		options.addArguments("enable-automation");
 		options.addArguments("--disable-infobars");
 		options.addArguments("--disable-dev-shm-usage");*/
-		driver = new ChromeDriver(options);
+		//driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 	}
 	
 	@Test(priority=2)
