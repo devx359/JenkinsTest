@@ -14,18 +14,19 @@ public class TC1 {
 		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_88.exe");
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_88");
 		System.setProperty("webdriver.chrome.silentOutput", "true");
-		/*ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
-		options.addArguments("window-size=1400,1500");
-		options.addArguments("--disable-gpu");
 		options.addArguments("--no-sandbox");
+		/*options.addArguments("window-size=1400,1500");
+		options.addArguments("--disable-gpu");
+
 		options.addArguments("start-maximized");
 		options.addArguments("enable-automation");
 		options.addArguments("--disable-infobars");
 		options.addArguments("--disable-dev-shm-usage");*/
-		//driver = new ChromeDriver(options);
-		driver = new ChromeDriver();
-		driver.get("http://127.0.0.1:8080/");
+		driver = new ChromeDriver(options);
+		//driver = new ChromeDriver();
+		//driver.get("http://127.0.0.1:8080/");
 	}
 	
 	@Test(priority=2)
